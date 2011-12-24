@@ -49,7 +49,7 @@ display : inline-block;
 html {
 overflow-y : scroll;
 background : rgb(255,255,255); 
-background : rgb(255,255,255) url(../img/tmp/grid.png) repeat-y 50% 0; 
+//background : rgb(255,255,255) url(../img/tmp/grid.png) repeat-y 50% 0; 
 font-size : 62.5%; }
 
 body { 
@@ -331,9 +331,28 @@ overflow : auto;
 vertical-align : top; }
 
 // 8 BANNER 		=============================================================================
+
+header, footer {
+	width: 100%; 
+	text-align: center;
+}
+
+header {
+	height: 5em;
+	background: @b2;
+}
+
+footer {
+	background: @p3;
+}
+
 // 9 NAVIGATION 	=============================================================================
 // 10 CONTENT 		=============================================================================
 // 11 MAIN 			=============================================================================
+[role="main"] {
+	background: @basecol;
+	text-align: center;
+}
 // 12 COMPLEMENTARY =============================================================================
 // 13 CONTENTINFO 	=============================================================================
 // 14 GLOBAL OBJECTS =============================================================================
@@ -479,6 +498,9 @@ visibility : hidden; }
 // webworkers
 
 /* 17 TEMPLATE SPECIFICS ============================================================================= */
-[role="main"] {
-	font-size:100%;
+//For some reason this MUST be down here
+html, body { width: 100%; }
+body { 
+	background-color: @p1; 
+	color: @white;
 }

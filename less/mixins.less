@@ -11,8 +11,36 @@ Includes:
 
 __________________________________________________________ */
 
-@basecol : rgb(123,172,200);	    // Base colour
-@compcol : spin(@basecol, 180);  	// Complementary colour
+/*
+Primary Color:
+7109AA	5F2580	48036F	9F3ED5	AD66D5
+Secondary Color A:
+9FEE00	86B32D	679B00	B9F73E	C9F76F
+Secondary Color B:
+FFD300	BFA730	A68900	FFDE40	FFE773
+*/
+
+@p1: #7109AA;
+@p2: #5F2580;
+@p3: #48036F;
+@p4: #9F3ED5;
+@p4: #AD66D5;
+
+@a1: #9FEE00;
+@a2: #86B32D;
+@a3: #679B00;
+@a4: #B9F73E;
+@a5: #C9F76F;
+
+@b1: #FFD300;
+@b2: #BFA730;
+@b3: #A68900;
+@b4: #FFDE40;
+@b5: #FFE773;
+
+//To make other 320 and up things happy
+@basecol: @p1;
+@compcol: spin(@p1, 180);
 
 // Links
 
@@ -28,29 +56,7 @@ __________________________________________________________ */
 @grey : lighten(@black, 50%);
 @lightgrey : lighten(@black, 75%);
 @lightergrey : lighten(@black, 90%);
-@white : rgb(255,255,255);
-
-// colour palettes
-
-@col_l1 : lighten(@basecol, 5%);
-@col_l2 : lighten(@basecol, 10%);
-@col_l3 : lighten(@basecol, 15%);
-@col_l4 : lighten(@basecol, 20%);
-
-@col_d1 : darken(@basecol, 5%);
-@col_d2 : darken(@basecol, 10%);
-@col_d3 : darken(@basecol, 15%);
-@col_d4 : darken(@basecol, 20%);
-
-@comp_l1 : lighten(@compcol, 5%);
-@comp_l2 : lighten(@compcol, 10%);
-@comp_l3 : lighten(@compcol, 15%);
-@comp_l4 : lighten(@compcol, 20%);
-
-@comp_d1 : darken(@compcol, 5%);
-@comp_d2 : darken(@compcol, 10%);
-@comp_d3 : darken(@compcol, 15%);
-@comp_d4 : darken(@compcol, 20%);
+@white : rgba(255,255,255, 180);
 
 // type
 
@@ -176,6 +182,12 @@ left top,
 background : -moz-linear-gradient(center bottom,
 @start 0%,
 @stop 100%); }
+
+.lineargrad (@start, @stop){
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@starta', endColorstr='@stopa'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(@start), to(@stop)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  @start,  @stop); /* for firefox 3.6+ */
+}
 
 // csstransforms
 
