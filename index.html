@@ -2,3 +2,25 @@
 layout: default
 ---
 Welcome to the home of Julian R. Moore
+{% for post in paginator.posts %}
+<div id="post">
+	<h3><a href="{{post.url}}">{{post.title}}</a></h3>
+	<p>{{post.content}}</p>
+</div>
+<div style="clear:both">&nbsp;</div>
+{% endfor %}
+<div style="text-align: center">
+{% if paginator.total_pages > 1 %}
+	{% if paginator.page != 1 %}
+		{% if paginator.previous_page == 1 %}
+			<a href="/index.html">&lt;</a>
+		{% else %}
+			<a href="/page{{paginator.previous_page}}/">&lt;</a>
+		{% endif %}
+	{% endif %}
+	Page: {{paginator.page}}
+	{% if paginator.page != paginator.total_pages %}
+		<a href="/page{{paginator.next_page}}/">&gt;</a>
+	{% endif %}
+{% endif %}
+</div>
