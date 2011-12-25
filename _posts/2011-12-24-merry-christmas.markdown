@@ -25,7 +25,7 @@ Then markdown/jekyll will try to shorten it to:
 
 	<script src="https://gist.github.com/1518791.js?file=post-receive"/>
 	
-Which will wreak your DOM tree, placing everything inside the script tag. To fix this all you have to do is put some "content" inside the script tag. I just did:
+Which will destroy your DOM tree, placing everything inside the script tag. To fix this all you have to do is put some "content" inside the script tag. I just did:
 
 	<script src="https://gist.github.com/1518791.js?file=post-receive">&nbsp;</script>
 	
