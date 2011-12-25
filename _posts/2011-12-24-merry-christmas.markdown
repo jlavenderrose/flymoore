@@ -15,7 +15,7 @@ If any part of this was unpleasant, it was getting the git-publishing to work. I
 
 <script src="https://gist.github.com/1518791.js?file=post-receive">&nbsp;</script>
 
-I really don't want to say anything else about this _incredibly robust_ script other than, well it works, right now...
+I really don't want to say anything else about this *incredibly robust* script other than, well it works, right now...
 
 And an interesting fun-fact: Embedding gists in markdown/jekyll is a little more complicated than I thought it might be. If you just use the code given to you by github:
 
