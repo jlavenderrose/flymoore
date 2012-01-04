@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static
 title: About Me.
 author: Julian R. Moore
 ---
