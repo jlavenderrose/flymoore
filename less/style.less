@@ -57,15 +57,14 @@ margin : 0 auto;
 padding : 0;
 width : 90%; /* 252px; */
 .font-size();
-.serif();
-color : rgb(40,40,40); 
+.serif(); 
 background-color : transparent; }
 
 button, 
 input, 
 select, 
 textarea { 
-font-family : "Helvetica Neue", Helvetica, Arial, sans-serif; 
+.sans-serif;
 color : @darkgrey; }
 
 // 2. HEADINGS (320 and Up typography defaults) ====================================================
@@ -384,7 +383,7 @@ footer {
 	}
 	a { color: @textcol; }
 	p {
-		font-size: 125%; 
+		.font-size(20); 
 		.serif;
 		text-indent: 1em;
 	}
