@@ -20,23 +20,28 @@ Secondary Color B:
 FFD300	BFA730	A68900	FFDE40	FFE773
 */
 
-@p1: #7109AA;
-@p2: #5F2580;
-@p3: #48036F;
-@p4: #9F3ED5;
-@p4: #AD66D5;
+@hangle: 220; 
 
-@a1: #9FEE00;
-@a2: #86B32D;
-@a3: #679B00;
-@a4: #B9F73E;
-@a5: #C9F76F;
+@p1: hsl(@hangle, 30%, 90%);
+@p2: darken(@p1, 5);
+@p3: darken(@p1, 10);
+@p4: lighten(@p1, 5);
+@p5: lighten(@p1, 10);
 
-@b1: #FFD300;
-@b2: #BFA730;
-@b3: #A68900;
-@b4: #FFDE40;
-@b5: #FFE773;
+@a1: spin(@p1, -120);
+@a2: darken(@a1, 5);
+@a3: darken(@a1, 10);
+@a4: lighten(@a1, 5);
+@a5: lighten(@a1, 10);
+
+@b1: hsl(@hangle, 75%, 90%);
+@b2: darken(@b1, 5);
+@b3: darken(@b1, 10);
+@b4: lighten(@b1, 5);
+@b5: lighten(@b1, 10);
+@b6: darken(@b1, 15);
+
+@backcol: @b3;
 
 //To make other 320 and up things happy
 @basecol: @p1;
@@ -44,7 +49,7 @@ FFD300	BFA730	A68900	FFDE40	FFE773
 
 // Links
 
-@linkcol : @white;
+@linkcol : @textcol;
 @linkcolhover : darken(@linkcol, 10);
 @linkcolvisited : @linkcolhover;
 @linkcolfocus : @linkcolhover;
@@ -59,6 +64,8 @@ FFD300	BFA730	A68900	FFDE40	FFE773
 @white : rgba(255,255,255, 180);
 
 // type
+
+@textcol: #000000;
 
 .font-size(@font-size: 16){
 @rem: (@font-size / 10);

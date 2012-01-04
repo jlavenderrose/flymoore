@@ -48,7 +48,7 @@ display : inline-block;
 
 html {
 overflow-y : scroll;
-background : @p1; 
+background : @backcol; 
 //background : rgb(255,255,255) url(../img/tmp/grid.png) repeat-y 50% 0; 
 font-size : 62.5%; height: 100% }
 
@@ -338,7 +338,7 @@ header, footer {
 }
 
 header {
-	background: @b2;
+	background: @b6;
 	.wrap {
 		.sans-serif;
 		a { text-decoration: none; }
@@ -354,7 +354,7 @@ header {
 }
 
 footer {
-	background: @p3;
+	background: @b6;
 }
 
 // 9 NAVIGATION 	=============================================================================
@@ -370,7 +370,7 @@ footer {
 			border-bottom: 1px solid black;
 			padding-top: .5em;
 			a {
-				color: @white;
+				color: @textcol;
 				text-decoration: none;
 			}
 		}
@@ -382,7 +382,7 @@ footer {
 	h1, h2, h3, h4, h5 {
 		padding-top: .5em;
 	}
-	a { color: @white; }
+	a { color: @textcol; }
 	p {
 		font-size: 125%; 
 		.serif;
@@ -402,7 +402,7 @@ footer {
 }
 // 11 MAIN 			=============================================================================
 [role="main"] {
-	background: @p3;
+	background: @p4;
 	padding-left: .5em;
 	padding-right: .5em;
 }
@@ -554,8 +554,8 @@ visibility : hidden; }
 //For some reason this MUST be down here
 html, body { width: 100%; height: 100%; }
 body { 
-	background-color: @p1; 
-	color: @white;
+	background-color: @backcol; 
+	color: @textcol;
 }
 
 @import "posts";
