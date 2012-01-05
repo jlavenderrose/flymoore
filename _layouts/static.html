@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="post">
+<div id="post" {% if page.id %}class="{{page.id}}" {% endif %}>
 	<h3><a href="{{post.url}}">{{page.title}}</a></h3>
 	<p>{{content}}</p>
 	<div style="clear:both">&nbsp;</div>
