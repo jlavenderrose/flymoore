@@ -1,6 +1,33 @@
+@import "mixins";
+
 #post {
 	img.about {
 		width: 30px;
 		float:none;
 	}
+	&.toc {
+		ul {
+			list-style: none;
+			li {
+				margin-left: 4em; 
+				.date {
+					.monospace;
+					.font-size(14)
+				}
+				.title {
+					.font-size(18);
+					.serif;
+				}
+			}
+		}
+		h2, h3, h4 {
+			padding: 0;
+			margin: 0;
+		}
+		h3 {
+			margin-left: 2em;
+		}
+		height: 100%
+	}
 }
+
