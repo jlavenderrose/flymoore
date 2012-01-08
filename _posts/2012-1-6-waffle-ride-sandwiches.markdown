@@ -23,7 +23,7 @@ After this point the process always turns into pure frustration as this incredib
 {% endcaption %}
 
 {% caption <a href="http://www.flickr.com/photos/jreedmoore/6657201333/" title="The product. by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7028/6657201333_623991938d_b.jpg" alt="The product."></a> %}
-	After coating the waffles in goodness I slice them up so I stuff them in a ziplock bag and eat them on the go.
+	After coating the waffles in goodness I slice them up so I can stuff them in a ziplock bag and eat them on the go.
 {% endcaption %}
 
 It might look weird, but at mile 57 it's good stuff.
