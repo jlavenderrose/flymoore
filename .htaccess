@@ -331,6 +331,21 @@ FileETag None
 # Rewrite "www.example.com -> example.com" 
 
 <IfModule mod_rewrite.c>
+Options +FollowSymLinks -MultiViews
+DirectorySlash Off
+
+RewriteEngine On
+
+  RewriteCond %{SCRIPT_FILENAME}/ -d
+  RewriteCond %{SCRIPT_FILENAME}.html !-f
+  RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
+
+  RewriteCond %{ENV:REDIRECT_STATUS} ^$
+  RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+  RewriteCond %{SCRIPT_FILENAME}.html -f
+  RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
+
   RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
