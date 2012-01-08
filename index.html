@@ -8,9 +8,9 @@ layout: default
 </div>
 <div style="clear:both">&nbsp;</div>
 {% endfor %}
-<div style="text-align: center">
+<div id="post">
 {% if paginator.total_pages > 1 %}
-	{% if paginator.page != 1 %}
+	<p style="text-align:center;">{% if paginator.page != 1 %}
 		{% if paginator.previous_page == 1 %}
 			<a href="/index.html">&lt;</a>
 		{% else %}
@@ -18,8 +18,8 @@ layout: default
 		{% endif %}
 	{% endif %}
 	Page: {{paginator.page}}
-	{% if paginator.page != paginator.total_pages %}
+	{% if paginator.page < paginator.total_pages %}
 		<a href="/page{{paginator.next_page}}/">&gt;</a>
-	{% endif %}
+	{% endif %}</p>
 {% endif %}
 </div>
