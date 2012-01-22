@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="post">
 	{% include post_pagination.html %}
-	<h3><a href="{{post.url}}">{{page.title}}</a></h3>
+	<h3><a href="{{post.url}}">{{page.title}}</a><span class="date" style="text-align: right">&#8212;{{page.date | date: '%m.%d.%y' }}</span></h3>
 	<p>{{content}}</p>
 	{% include post_pagination.html %}
 	<div style="clear:both">&nbsp;</div>
