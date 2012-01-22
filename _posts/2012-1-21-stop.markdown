@@ -12,7 +12,7 @@ This is the pile of cycling clothes that my cat, Skittles, enjoys.
 
 I have no time to myself and so my clothes are just piling up on my dresser endlessly. One day this all catches up with me as my cat pushes all my clothes onto the floor. Like last Saturday. I live in Los Angeles, which as a cyclist means that in the winter I do the Simi Ride, no questions asked. Last Saturday I got up at 6:30 like usual to get ready to roll out at about 7:15. I even got going, until I tried to shift my bike from the little ring to the big ring and nothing happened. I had neglected cleaning my bike for so long that the front derailleur had gotten jammed with sweat and gatorade and dirt and the like. 
 
-And so this post gets its namesake, because I had to "Stop!" and take care of myself.
+And so this post gets its namesake, because I had to "Stop!" and take care of myself. I ignored some obvious signs (and now for the sake of getting in some more pictures, some 'cliches'):
 
 {% caption <a href="http://www.flickr.com/photos/jreedmoore/6739593103/" title="Stop by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7145/6739593103_e19e48e4e2_b.jpg" alt="Stop"></a> %}
 Nothing is going to get a race to stop...
@@ -20,7 +20,6 @@ Nothing is going to get a race to stop...
 
 I'm trying, and hopefully I'll be able to spend a little bit more time writing for this because of it. I've not been writing for lack of interesting things to talk about, but for lack of energy to sit down and open a text editor and write about it. Almost everyday I get to see stuff like this:
 
-{% caption <a href="http://www.flickr.com/photos/jreedmoore/6739595851/" title="Door is Closed by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7026/6739595851_0b660c80a0_b.jpg"  alt="Door is
- Closed"></a> %}
+{% caption <a href="http://www.flickr.com/photos/jreedmoore/6739595851/" title="Door is Closed by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7026/6739595851_0b660c80a0_b.jpg" alt="Door is Closed"></a> %}
 "Erik" is very proud of his handiwork here.
 {% endcaption %}
