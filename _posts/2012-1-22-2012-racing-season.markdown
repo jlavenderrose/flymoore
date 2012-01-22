@@ -9,25 +9,25 @@ The actual race is not what I want to write about though. There are plenty of "r
 
 The day before your race you take note of when you have to get up. Today I had to get up at 5am so I could get out of the house at 5:30 so my dad would have time to warm-up for his race at 7am. Knowing you don't want to have to get all your stuff together in 30 minutes you get ready the night before. In the middle of January this means working at 9pm to get yourself ready. Even in California this means it's cold. Really uncomfortably cold.
 
-{% caption dad bike photo %}
+{% caption <a href="http://www.flickr.com/photos/jreedmoore/6745006781/" title="Cleaning by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7157/6745006781_1a97a667f5_b.jpg" alt="Cleaning"></a> %}
 Cleaning bikes at 9pm is a joy.
 {% endcaption %}
 
 I don't claim to know how my dad was able to stand being out cleaning his bike in the cold with just a t-shirt on (I cleaned my bike too, you have to before a race! but I did it with 3 shirts and a sweater on.) For reference, this is what it looks like when its slightly more bearable to work on a bicycle.
 
-{% caption my bike work photo %}
-I was working on my dad's shifting the same day I had my own derailleur problems I talked about yeserday...
+{% caption <a href="http://www.flickr.com/photos/jreedmoore/6745005465/" title="Wrenching by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7151/6745005465_3cfeff25af_b.jpg" alt="Wrenching"></a> %}
+I was working on my dad's shifting the same day I had my own derailleur problems I talked about yesterday... [taken by my dad on an iPhone]
 {% endcaption %}
 
 Once I've got your bike ready, I have to get all the clothes I need for a race together. There are quite a lot:
 
-{% caption clothes laid out %}
+{% caption <a href="http://www.flickr.com/photos/jreedmoore/6745008009/" title="Clothes all laid out. by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7029/6745008009_252e15ea01_b.jpg" alt="Clothes all laid out."></a> %}
 What's most exciting about this is my new team Jersey!
 {% endcaption %}
 
 Of course this all has to get packed up to, and that ends up looking like this:
 
-{% caption clothes bagged up %}
+{% caption <a href="http://www.flickr.com/photos/jreedmoore/6745009663/" title="All bagged up. by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7149/6745009663_ba755b32ab_b.jpg" alt="All bagged up."></a> %}
 And now I'm all ready.
 {% endcaption %}
 
