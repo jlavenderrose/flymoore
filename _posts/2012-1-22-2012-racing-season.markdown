@@ -19,7 +19,7 @@ I don't claim to know how my dad was able to stand being out cleaning his bike i
 I was working on my dad's shifting the same day I had my own derailleur problems I talked about yesterday... [taken by my dad on an iPhone]
 {% endcaption %}
 
-Once I've got your bike ready, I have to get all the clothes I need for a race together. There are quite a lot:
+Once I've got my bike ready, I have to get all the clothes I need for a race together. There are quite a lot:
 
 {% caption <a href="http://www.flickr.com/photos/jreedmoore/6745008009/" title="Clothes all laid out. by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7029/6745008009_252e15ea01_b.jpg" alt="Clothes all laid out."></a> %}
 What's most exciting about this is my new team Jersey!
