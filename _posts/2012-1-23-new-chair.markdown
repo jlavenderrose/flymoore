@@ -13,7 +13,7 @@ A forceful takeover...
 
 It turns out that this chair is a [POÄNG](http://www.ikea.com/us/en/catalog/products/S19805433/), a chair from Ikea. I found this out because I had these photos up on my screen during a Study Hall period at school, and one of my friends walked by and happened to glance at the pictures. Somehow in less than about 10 seconds she was able to figure out that this was in fact a POÄNG (although didn't know the spelling so my first search was for a "Pawang")
 
-It turns out that this chair renders cats rather immobile, so you can hover over them all day with a camera and they will lazily submit. This seem like the complete opposite of the way cats usually react to cameras, which is to start moving around as much as possible so as to make your 1/30th of a second shutter speed completely useless.
+It turns out that this chair renders cats rather immobile, so you can hover over them all day with a camera and they will lazily submit. This seems like the complete opposite of the way cats usually react to cameras, which is to start moving around as much as possible so as to make your 1/30th of a second shutter speed completely useless.
 
 {% caption <a href="http://www.flickr.com/photos/jreedmoore/6753316689/" title="Hostile Takeover by jreedmoore, on Flickr"><img src="http://farm8.staticflickr.com/7175/6753316689_d53e743fb1_b.jpg" alt="Hostile Takeover"></a> %}
 Lazy cats...
