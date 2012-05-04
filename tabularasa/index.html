@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <html>
 <head>
 	<link rel="stylesheet" href="/css/advent.css">
@@ -12,10 +15,12 @@
 
 <div id="container">
 	<div id="post">
-		<div style="float: left"><a href="0001.html">Start Over?</a></div>
+		<div style="float: left"><a href="0001.html">Start?</a></div>
 		<div style="float: right"><a href="{{site.tabularasaend}}">Go to "End"</a></div>
 		<div style="clear:both">&nbsp;</div>
-		{{content}}
+		<p>Welcome to Tabula Rasa!</p>
+		
+		<p>This is a silly little project of mine. It should become clear what it is as you navigate through the story. Use the links above to jump into the story. (I would recommend "Start?" as your first option since you probably wont understand anything if you try to work backwards from the "End.")</p>
 	</div>
 	<div id="comments">	
 		<div style="clear:both">&nbsp;</div>
@@ -25,17 +30,4 @@
 </div>
 
 </body>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'flymoore'; // required: replace example with your forum shortname
-	var disqus_title = "{{page.title}}";
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </html>
