@@ -2,6 +2,7 @@
 layout: post
 title: Paper Beads
 ---
+
 Firstly, I would like to recognize that I suck at keeping any kind of promise.
 
 With that out of the way let's look at something pretty. My mom likes to take color paper, taken out of magazines and the like, cut them into wedges and roll them up into beads. You then varnish them so they hold together and you end up with neat little colorful beads. My mom spends an enormous amount of time doing this, and I think we might complain about it more if they didn't look cool. She's always said she'd like to sell them on Etsy too so maybe I can convince her to actually follow through by putting cool pictures of the beads on the internet.
