@@ -20,7 +20,7 @@ So then I have a really simple workflow:
 Of course if you don't have the Lightroom 4 there are some [other](http://www.sno.phy.queensu.ca/~phil/exiftool/geotag.html) [options](https://www.google.com/search?q=geotag+tracklog) for geotagging your photos once you have a tracklog.
 
 If you *do* have Lightroom 4 with the Map module in all it's glory then you get a cool view like this:
-{% caption <img src="/img/posts/lr4tracklog.png"/> %}
+{% caption <a href="/img/posts/lr4tracklog.png"><img src="/img/posts/lr4tracklog.png"/></a> %}
 {% endcaption %}
 
 I just did a quick stroll around my house so I don't want to show the entire world the whole track log, but I'm pretty impressed with how well the Edge tracks where I am. Upon closer inspection things get sort of weird, when you stop to take a photo the Edge Auto Pauses and picks up when you start moving again. So when you take photos they get spread out between where it detected you stopped and whered it detected you started. It's definitely accurate enough for getting very close to where you actually are though so I'm happy with my basically free geotagging solution.
