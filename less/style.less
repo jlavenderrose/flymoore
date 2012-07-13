@@ -384,7 +384,7 @@ footer {
 	}
 	a { color: @textcol; }
 	p {
-		.font-size(20); 
+		.font-size(18); 
 		.serif;
 		text-indent: 1em;
 	}
@@ -407,8 +407,16 @@ footer {
 		}
 	}
 	dl {
+		dt {
+			width: 100%;
+			img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
 		dd {
-			.font-size(16);
+			.font-size(20);
 			.serif;
 			text-align: center;
 		}
