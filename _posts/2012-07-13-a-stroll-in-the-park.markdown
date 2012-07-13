@@ -4,7 +4,7 @@ author: Julian R. Moore
 title: Stroll in a Park
 ---
 {% flickrimg 7531707104 %}
-	Big wall of flowers at the [VNSO](http://goo.gl/maps/MS3F) park
+	Big wall of flowers at the VNSO park
 {% endflickrimg %}
 
 A few days ago I ambled along to the [Van Nuys Sherman Oaks 'Recreation Center'](http://goo.gl/maps/MS3F), a big park with a pool and an inordinate amount of space for little kids to play little league (insert-sport-here). I've just recently gotten a new camera, and I haven't really gotten into the swing of doing photo walks and taking pictures that aren't horrible so I figured I'd try my hand once more. 
