@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Julian R. Moore
-title: Stroll in a Park
+title: A Stroll in the Park
 ---
 {% flickrimg 7531707104 %}
 	Big wall of flowers at the VNSO park
