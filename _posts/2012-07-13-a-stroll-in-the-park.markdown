@@ -23,6 +23,7 @@ I ended up taking 194 photos, and I think I posted 8 to [flickr](http://www.flic
 	I started taking pictures of these weird flowers, but I ended up being way more interested in the bees flying around. They seem to get stuck in these flowers for awhile, I assume because they are rather a tight fit for a bee.
 {% endflickrimg %}
 
+"These weird flowers" turned out to be [Kangaroo Paw](http://en.wikipedia.org/wiki/Kangaroo_paw), maybe specifically [Anigozanthos flavidus](http://en.wikipedia.org/wiki/Anigozanthos_flavidus) although I'm really not sure if it's that particular species.
 
 {% flickrimg 7531708102 %}
 	And as with any scene in the Greater Los Angeles area, here's some urban decay.
