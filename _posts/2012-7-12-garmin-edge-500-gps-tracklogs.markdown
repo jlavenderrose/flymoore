@@ -2,10 +2,13 @@
 layout: post
 author: Julian R. Moore
 title: Garmin Edge 500 for Photowalk Tracklogs.
+image: {
+	feature: 7560303448
+}
 ---
-{% caption <a href="http://www.flickr.com/photos/jreedmoore/7560303448/" title="Roadside Flower by jreedmoore, on Flickr"><img src="http://farm9.staticflickr.com/8153/7560303448_f24989d67c_b.jpg" alt="Roadside Flower"></a> %}
+{% flickrimg {{page.image.feature}} %}
 I swear, this image DOES have something to do with this post.
-{% endcaption %}
+{% endflickrimg %}
 
 There's this nifty little GPS Bike Computer called the [Garmin Edge 500](https://buy.garmin.com/shop/shop.do?pID=36728). It does all sorts of cool things for a cyclist, recording your position and speed, heart rate, cadence, 'power' (if you have a fancy power meter). It makes it possible to record and store your performance for years and year so you can see how you've improved over time. It's a cool piece of technology, and today I realized it's a perfectly fine GPS datalogger I could use to geotag photos.
 

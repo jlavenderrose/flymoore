@@ -2,6 +2,9 @@
 layout: post
 title: 2012 Racing Season
 author: Julian R. Moore
+image: {
+	feature: 6745006781
+}
 ---
 The 2012 Racing Season is upon me. I got out today for my first race of the year, race number one of the [CBR](http://www.californiabicycleracing.org/) (now renamed "SoCal Cup") Criterium series. It was my first race as a Category 4 Road Racer, and even in this 'tougher' field I placed in exactly the same place as I did in Category 5, 13th place...
 

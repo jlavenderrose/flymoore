@@ -2,6 +2,9 @@
 layout: post
 author: Julian R. Moore
 title: 2011 in Pictures
+image: {
+	feature: 6631631973
+}
 ---
 The new year has begun and college applications are creeping up on me, so I've decided to shamelessly steal someone else's ideas. Inspired by [this guy](http://janneinosaka.blogspot.com/2008/01/2007-pictures.html) who was himself inspired by [this other guy](http://shisaku.blogspot.com/2007/12/one-more-year-then-2007.html) I'm going to post a picture for every month of the year.
 

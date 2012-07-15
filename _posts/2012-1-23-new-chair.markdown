@@ -2,6 +2,9 @@
 layout: post
 title: New Chair
 author: Julian R. Moore
+image: {
+	feature: 6753316061
+}
 ---
 For those of you not in the know, we got a new chair at the Moore household recently. It came for free from our generous neighbor, and finally fills out the seating arrangement in our living room. Finally after some 15 years of living here we can all sit down around the TV at once (not that we ever will of course).
 

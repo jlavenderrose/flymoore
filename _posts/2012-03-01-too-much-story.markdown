@@ -2,6 +2,9 @@
 layout: post
 title: Too Much Story Not Enough Art
 author: Julian R. Moore
+image: {
+	feature: 6799703142
+}
 ---
 I seem to post in spurts on this website. I suppose that's alright in its own way, I'd rather post more frequently. Part of my problem is that I'm beat-tired most days, but most of my problem is that I try too hard. I have to have some kind of coherent story holding my post together, and that is sometimes quite difficult to figure out. I don't do a whole lot of coherent story photography sessions, so I have a lot of very disjointed art.
 
