@@ -1,7 +1,7 @@
 module Jekyll
 	module RSSFilter
 		def rss_date(date)
-			date.strftime("%a, %-d %b %Y %k:%M:%S %z")
+			date.rfc822
 		end
 	end
 end
