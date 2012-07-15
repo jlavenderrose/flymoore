@@ -1,3 +1,7 @@
+name: Flymoore
+description: A blog.
+url: http://www.flymoore.com/
+
 safe:        false
 auto:        false
 server:      false

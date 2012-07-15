@@ -61,9 +61,30 @@ License: http://creativecommons.org/licenses/MIT
 <link rel="canonical" href="/">
 
 <meta name="google-site-verification" content="Lq2NUkGUojAapozV1DnoNvnWRQh2BIqpJ4xmzXrvNQw" />
+
+<!-- Scripts -->
 <script>
 var _gaq=[['_setAccount','UA-28096077-1'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<script src="/js/libs/jquery-1.6.2.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/mylibs/helper.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="/js/libs/imgsizer.js"></script>
+<![endif]-->
+
+<script>
+// iOS scale bug fix
+MBP.scaleFix();
+
+// Respond.js
+yepnope({
+	test : Modernizr.mq('(only all)'),
+	nope : ['/js/libs/respond.min.js']
+});
 </script>
 </head>
 
@@ -99,27 +120,6 @@ var _gaq=[['_setAccount','UA-28096077-1'],['_trackPageview']]; // Change UA-XXXX
 		<a href="/atom.xml">Feed</a>
 </footer>
 </div>
-
-<!-- Scripts -->
-<script src="/js/libs/jquery-1.6.2.min.js"></script>
-<script src="/js/plugins.js"></script>
-<script src="/js/script.js"></script>
-<script src="/js/mylibs/helper.js"></script>
-
-<!--[if (lt IE 9) & (!IEMobile)]>
-<script src="/js/libs/imgsizer.js"></script>
-<![endif]-->
-
-<script>
-// iOS scale bug fix
-MBP.scaleFix();
-
-// Respond.js
-yepnope({
-	test : Modernizr.mq('(only all)'),
-	nope : ['/js/libs/respond.min.js']
-});
-</script>
 
 <!-- http://mths.be/aab -->
 </body>
