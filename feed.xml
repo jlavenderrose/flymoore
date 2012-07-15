@@ -7,11 +7,13 @@ layout: rss-feed
 		<title>{{ site.name }}</title>
 		<description>{{ site.description }}</description>
 		<link>{{ site.url }}</link>
+		<pubDate>{{ site.time | rss_date }}</pubDate>
+		<lastBuildDate>{{ site.time | rss_date }}</lastBuildDate>
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
 				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<pubDate>{{ post.date | rss_date }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 			</item>
 		{% endfor %}
