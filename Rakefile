@@ -1,7 +1,3 @@
-require "rubygems"
-require "bundler/setup"
-require "stringex"
-
 desc "preview the site in a web browser"
 task :preview do
   jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll --auto --server")
@@ -14,12 +10,16 @@ task :preview do
   [jekyllPid].each { |pid| Process.wait(pid) }
 end
 
+def to_url(str)
+  return str.downcase.gsub(/\ +/,"-")
+end
+
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in _posts/"
 task :new_post, :title do |t, args|
   args.with_defaults(:title => 'new-post')
   title = args.title
-  filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+  filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{to_url title}.markdown"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end

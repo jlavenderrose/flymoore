@@ -1,0 +1,21 @@
+---
+layout: post
+published: true
+title: "Smile!"
+date: 2012-07-17 23:16
+comments: true
+categories: 
+image: {
+	feature: 7595415196,
+	second: 7595415898
+}
+---
+{% flickrimg {{ page.image.feature }} %}
+	Monday's Breakfast
+{% endflickrimg %}
+
+{% flickrimg {{ page.image.second }} %}
+	Tuesday's Breakfast
+{% endflickrimg %}
+
+I'm noticing a pattern.
