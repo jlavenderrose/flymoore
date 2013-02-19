@@ -1,3 +1,10 @@
+require 'yaml'
+
+config_file = '_config.yml'
+config = YAML.load_file(config_file)
+
+env = ENV['env'] || 'production'
+
 desc "preview the site in a web browser"
 task :preview do
   jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll --auto --server")
@@ -34,4 +41,8 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
+end
+
+task :deploy do
+  sh "bundle exec jekyll build && rsync -avz --delete #{config['destination']}/ #{config['environments'][env]['remote']['connection']}:#{config['environments'][env]['remote']['path']}"
 end

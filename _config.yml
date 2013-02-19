@@ -45,4 +45,9 @@ kramdown:
     coderay_css: style
 
 
-tabularasaend: 0037.html
+environments:
+  production:
+    url: http://www.flymore.com/
+    remote:
+      connection: flymoore@flymoore.com
+      path: /var/www/

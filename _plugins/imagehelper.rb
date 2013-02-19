@@ -36,7 +36,8 @@ module Flymoore
 		context.stack do
 			@id = partial.render(context)
 		end
-	  	@img_info = flickr.photos.getInfo(:photo_id => @id)
+
+	  	@img_info = flickr.photos.getInfo(:photo_id => @id.strip)
   		@img_src = FlickRaw.url_b(@img_info)
   		@img_page = FlickRaw.url_photopage(@img_info)
   		"<dl><dt><a href=\"#{@img_page}\"><img src=\"#{@img_src}\"/></a></dt><dd>#{easy_render(context,super)}</dd></dl>"
