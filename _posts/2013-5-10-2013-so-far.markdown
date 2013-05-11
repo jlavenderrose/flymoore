@@ -1,0 +1,46 @@
+---
+layout: post
+published: true
+title: "2013 So Far"
+date: 2013-05-13 22:15
+comments: true
+categories: 
+image: {
+	feature: 7595415196
+}
+---
+What a surprise! I didn't update this website very often for a long time. Again! I've been busy being a ridiculously involved college student with his hands in almost every theatrical production he can possibly work on. Accordingly my photographic output has also been just a 'tiny' little bit less prolific than in years past.
+
+Because of that, here's a summary of the last 5 months of my life in a little photo essay.
+
+{% flickrimg 8728078878 %}
+	Flying to Worcester
+{% endflickrimg %}
+
+On January 2nd I packed up my bags and put all the thoughts from the long semester previous behind me. I headed back out to Worcester to work on a musical being put on at WPI by the student run Vox. We put on <i>I Love You Because</i> and it was truly wonderful experience and one I'm not going to forget anytime soon.
+
+{% flickrimg 8728080002 %}
+	Snowy Tree
+{% endflickrimg %}
+
+I did not however, love the cold. This is already several weeks later in the after math of Winter Storm Nemo. When I flew into Worcester on that cold January Day it was a whole 2 degrees fahrenheit. It didn't stay that cold forever but it was icy and snowy and awful for way longer than is reasonable for a native Californian.
+
+{% flickrimg 8726961607 %}
+	Snowy Branch
+{% endflickrimg %}
+
+I did like taking pictures of things covered in snow though, apparently. (Apparently also [apparently](http://www.flickr.com/photos/jreedmoore/8524045273/in/photostream/lightbox/) [snow](http://www.flickr.com/photos/jreedmoore/8524046833/in/photostream/lightbox/) [in](http://www.flickr.com/photos/jreedmoore/8525162756/in/photostream/lightbox/) [general](http://www.flickr.com/photos/jreedmoore/8525164398/in/photostream/lightbox/))
+
+{% flickrimg 8728081438 %}
+	Frosty Window
+{% endflickrimg %}
+
+A testament to how busy I was this last semester, this is the last good photo I have from before I got home. It's a picture of an airplane window on my flight home.
+
+{% flickrimg 8728083232 %}
+	Pizza
+{% endflickrimg %}
+
+And now I'm home. I expect I'm going to spend all summer taking photos and making big plans for next year and next to none of them will actually happen.
+
+(But hey at least I fixed this website in some limited sense and am actually doing stuff, if only for the next three months).
